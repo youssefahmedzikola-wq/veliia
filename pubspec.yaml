@@ -1,0 +1,36 @@
+name: veliia
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.7
+  rename: ^3.1.0
+  flutter_inappwebview: ^6.1.5
+  url_launcher: ^6.3.1
+  webview_flutter: ^4.14.1
+  
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+
+fonts:
+  - family: Cairo
+    fonts:
+      - asset: assets/fonts/cairo.ttf
